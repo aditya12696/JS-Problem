@@ -4,7 +4,7 @@ function validateEmail(email) {
 }
 
 // Get email from the terminal and validate it
-const readline = require("readline");
+const readline = require("readline"); 
 
 const rl = readline.createInterface({
     input: process.stdin,
