@@ -4,7 +4,7 @@ function validateEmail(email) {
     if (!email.includes("@")) {
         return "❌ Invalid Email! '@' is missing.";
     }
-    
+     
     if (!email.includes("@bridgelabz")) {
         return "❌ Invalid Email! It must contain '@bridgelabz'.";
     }
